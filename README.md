@@ -1,35 +1,35 @@
-# 🛡️ ReviewSentinel – AI-Powered Fake Review Detector
+# ReviewSentinel – AI-Powered Fake Review Detector
 
-## 🚀 Project Overview
+## Project Overview
 
 **ReviewSentinel** is an AI-powered system designed to detect and flag suspicious or fake product reviews on e-commerce platforms like **Amazon** and **Flipkart**.
 
 Our tool uses **Natural Language Processing (NLP)**, **Behavioral Analysis**, and **Explainable AI (LIME/SHAP)** to provide users with:
 
-- ✅ A Trust Score for each review  
-- ✅ Classification as Genuine, Suspicious, or Fake  
-- ✅ Explanations highlighting why a review was flagged  
+- A Trust Score for each review  
+- Classification as Genuine, Suspicious, or Fake  
+- Explanations highlighting why a review was flagged  
 
 We also built a **Chrome Extension** that works directly on live product pages, alongside a **Flask backend** with ML integration.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🔍 **AI-Powered Review Classification** – Detect fake vs. genuine reviews in real-time  
-- 📊 **Trust Score & Sentiment Analysis** – Quantify reliability and overall sentiment  
-- 🖼️ **Explainability (XAI)** – LIME/SHAP highlights words/phrases influencing decisions  
-- 🧑‍💻 **Chrome Extension** – Seamlessly integrates with Amazon/Flipkart product pages  
-- 📈 **Dashboard** – Upload CSV of reviews to visualize:
+- **AI-Powered Review Classification** – Detect fake vs. genuine reviews in real-time  
+- **Trust Score & Sentiment Analysis** – Quantify reliability and overall sentiment  
+- **Explainability (XAI)** – LIME/SHAP highlights words/phrases influencing decisions  
+- **Chrome Extension** – Seamlessly integrates with Amazon/Flipkart product pages  
+- **Dashboard** – Upload CSV of reviews to visualize:
   - % Genuine vs. Fake reviews  
   - Sentiment Pie Charts  
   - Pros & Cons Extraction  
   - Time Trend Charts  
-- 📑 **PDF Report Generator** – Export classification summary, trustworthiness score, and reasoning  
+- **PDF Report Generator** – Export classification summary, trustworthiness score, and reasoning  
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer         | Tools Used                                      |
 |---------------|--------------------------------------------------|
@@ -41,7 +41,7 @@ We also built a **Chrome Extension** that works directly on live product pages, 
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 1. **Review Scraping**: Extension extracts reviews from live product pages  
 2. **Classification**: Reviews are sent to Flask backend → ML model → classified as Genuine / Suspicious / Fake  
@@ -51,7 +51,7 @@ We also built a **Chrome Extension** that works directly on live product pages, 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ReviewSentinel/
@@ -81,9 +81,9 @@ ReviewSentinel/
 
 ---
 
-## ⚡ Installation & Usage
+## Installation & Usage
 
-### 🔹 Backend Setup
+### Backend Setup
 
 ```bash
 cd backend
@@ -95,7 +95,7 @@ Server runs on `http://127.0.0.1:5000`
 
 ---
 
-### 🔹 Chrome Extension Setup
+### Chrome Extension Setup
 
 1. Go to `chrome://extensions/`  
 2. Enable **Developer Mode**  
@@ -104,7 +104,7 @@ Server runs on `http://127.0.0.1:5000`
 
 ---
 
-### 🔹 Dashboard Usage
+### Dashboard Usage
 
 ```bash
 cd dashboard
@@ -115,7 +115,7 @@ Open `http://127.0.0.1:5000` in browser → Upload CSV of reviews
 
 ---
 
-## 🎯 Hackathon Value Proposition
+## Hackathon Value Proposition
 
 - **Problem**: Fake reviews mislead millions of online shoppers  
 - **Solution**: An explainable, real-time, AI-powered system to detect and flag suspicious reviews  
@@ -123,9 +123,9 @@ Open `http://127.0.0.1:5000` in browser → Upload CSV of reviews
 
 ---
 
-## 📌 Future Scope
+## Future Scope
 
-- 🔹 Multilingual review detection (Hindi-English code-switching)  
-- 🔹 Temporal & behavioral reviewer profiling  
-- 🔹 Mobile app integration  
-- 🔹 Scaling to multiple e-commerce platforms globally  
+- Multilingual review detection (Hindi-English code-switching)  
+- Temporal & behavioral reviewer profiling  
+- Mobile app integration  
+- Scaling to multiple e-commerce platforms globally  
