@@ -1,0 +1,1 @@
+vectorizer = pickle.load(f)
